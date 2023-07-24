@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="shortcut icon"
+    href="https://www.vhv.rs/dpng/d/467-4676067_books-icon-transparent-background-clipart-png-download-transparent.png"
+    type="image/x-icon">
+  <link rel="stylesheet" href="index_style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body onload="displayData()">
+  <h1>Full Book List</h1>
+  <nav class="search_area">
+    <div class="search_bttn">
+        <input type="text" required id="search_word_id" placeholder="Find a book">
+        <button type="button" id="search_button_id" onclick="search_button()">Search</button>
+    </div>
+    <!-- <button type="button" class="btn btn-success mt-5 find_book " onclick="searchFunction()">Find Book</button> -->
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr class="trow_section">
+          <th class="thead_section" scope="col">Book</th>
+          <th class="thead_section" scope="col">Author</th>
+          <th class="thead_section" scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody id="table_id"></tbody>
+    </table>
+    <button onclick="window.location = 'details.html'" class="btn btn-danger mt-5 ">Add Book</button>
+    <!-- <button type="button" class="btn btn-success mt-5 " onclick="searchFunction()">Find Book</button> -->
+    <div id="search_details_id" class="mt-0"> </div>
+  </nav>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

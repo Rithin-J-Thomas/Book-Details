@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+.search_bttn{
+    margin-top: -20px;
+    text-align: right;
+    margin-bottom: 25px;
+    margin-right: 30px
+}
+.search_area {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.td_section ,.thead_section {
+    border: 3px black solid;
+
+}
+
+
+.search_details{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    border: 3px black solid;
+
+}
+
+#search_word_id{
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 35%;
+    height: 35px;
+}
+#search_button_id{
+    color: white;
+    border: 0px solid;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    background-color: #198754;
+}
+
+input:hover {
+    box-shadow: 2px 4px rgb(245, 149, 140);
+    transition-duration: 0.5s;
+    border:2px solid rgb(128, 30, 0);
+}
